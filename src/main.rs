@@ -14,6 +14,8 @@ fn main() {
     let result = match problem.as_str() {
         "2.1" => solutions::problem_2::solve_part_1(&input),
         "2.2" => solutions::problem_2::solve_part_2(&input),
+        "3.1" => solutions::problem_3::solve_part_1(&input),
+        "3.2" => solutions::problem_3::solve_part_2(&input),
         _ => {
             panic!("unsupported problem {}", problem);
         }
